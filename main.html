@@ -1,16 +1,124 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <title>Architecture Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #d9e2d9;
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            width: 1100px;
+            background: #f1f1f1;
+            padding: 10px;
+        }
+        .imageContainer {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .imageContainer img {
+            width: 100%;
+            height: auto;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        td {
+            vertical-align: top;
+            padding: 10px;
+        }
+        td img {
+            width: 100%;
+            height: auto;
+        }
+        .col-left, .col-right {
+            width: 200px;
+        }
+        .col-middle {
+            width: 600px;
+            background-color: #fff;
+            padding: 15px;
+        }
+        h3 {
+            margin-top: 0;
+            font-size: 20px;
+            text-align: center;
+        }
+        .text-block {
+            font-size: 14px;
+            line-height: 1.6;
+        }
+        .highlight {
+            font-weight: bold;
+        }
+        a {
+            text-decoration: none;
+            color: blue;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+    <div class="container">
+        
+        <!-- Top Image -->
+        <div class="imageContainer">
+            <img src="https://images.unsplash.com/photo-1501183638710-841dd1904471" alt="Architecture Design">
+        </div>
+        
+        <!-- Table -->
+        <table border="1">
+            <tr>
+                <td class="col-left"><img src="https://images.unsplash.com/photo-1501594907352-04cda38ebc29" alt="Building"></td>
+                <td class="col-middle">
+                    <h3>Unit #5 - Floor Plans</h3>
+                    <div class="text-block">
+                        A. Kitchen <br>
+                        B. Bathroom <br>
+                        C. Using "Slabs" <br>
+                        D. Georgian Home <br>
+                        E. Sketching Assignment #5
+                    </div>
+                </td>
+                <td class="col-right"><img src="https://images.unsplash.com/photo-1501183638710-841dd1904471" alt="Spiral Stairs"></td>
+            </tr>
+            <tr>
+                <td class="col-left">
+                    <img src="https://images.unsplash.com/photo-1479839672679-a46483c0e7c8" alt="House Plans">
+                    <p><span class="highlight">HousePlans.com</span> The largest source for quality affordable ready-made house plans. A great place to surf for space planning ideas <br>
+                    <a href="#">learn more</a></p>
+                </td>
+                <td class="col-middle">
+                    <h3>Objective</h3>
+                    <div class="text-block">
+                        Discuss factors that are important in the design of bedrooms. 
+                        Plan the size and location of closets for a typical residence. 
+                        Plan a furniture arrangement for a room. Implement important design considerations for bathrooms. 
+                        Plan a bathroom that follows solid design principles. 
+                        Plan the service area of a home by applying good design principles. 
+                        Design a functional kitchen to meet a family’s needs. 
+                        Select kitchen appliances that are appropriate for a design. 
+                        Plan an efficient clothes care center. Describe appropriate dimensions for garage space. 
+                        Identify the rooms and areas that comprise the living area. 
+                        Apply design principles to planning a living room. 
+                        Integrate the furniture in a living room plan. 
+                        Analyze a dining room using good design principles. 
+                        Design a functional entry and foyer.
+                    </div>
+                </td>
+                <td class="col-right">
+                    <img src="https://images.unsplash.com/photo-1479839672679-a46483c0e7c8" alt="Green Floor">
+                    <p><span class="highlight">Green Floor</span><br>
+                    FreeGreen.com offers both sponsored and non-sponsored floor plans. Their goal is to provide consumers with free solutions to their green architectural needs. <br>
+                    <a href="#">learn more</a></p>
+                </td>
+            </tr>
+        </table>
+    </div>
 </body>
-
 </html>
